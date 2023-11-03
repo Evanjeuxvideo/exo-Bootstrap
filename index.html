@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Exercice Bootstrap</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+                <a class="navbar-brand" href="#">start bootstrap</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">about</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+
+    <div class="row justify-content-center" id="header-avatar">
+        <div class="col-md-3 pt-5 mt-5 header-avatar-image">
+            <img src="assets/avatar.png" alt="mon avatar">
+        </div>
+
+        <div class="row">
+            <div class="col-md-12">
+                <h1>
+                    start bootstrap
+                </h1>
+            </div>
+        </div>
+
+        <div class="row justify-content-center align-items-center">
+            <div class="col-md-1 image-trait">
+            </div>
+
+            <div class="col-md-1 image-etoile d-flex justify-content-center">
+                <img src="assets/etoile.png" alt="étoile">
+            </div>
+
+            <div class="col-md-1 image-trait">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12 d-flex justify-content-center">
+                <p>
+                    Graphic Artist - Web Designer - Illustrator
+                </p>
+            </div>
+        </div>
+
+    </div>
+
+
+    <main>
+        <div class="row">
+            <div class="col-md-12 d-flex justify-content-center">
+                <section>
+                    <h2>
+                        portfolio
+                    </h2>
+                    <div class="row justify-content-center align-items-center">
+                        <div class="col-md-1 image-trait-bleu">
+                        </div>
+
+                        <div class="col-md-1 image-etoile-bleu d-flex justify-content-center">
+                            <img src="assets/etoile bleu.png" alt="étoile bleu">
+                        </div>
+
+                        <div class="col-md-1 image-trait-bleu">
+                        </div>
+                    </div>
+                </section>
+            </div>
+
+            <section id="section-images">
+                <div class="row justify-content-center">
+                    <div class="col-md-2">
+                        <img src="assets/N64 Console.png" alt="Nintendo 64">
+                    </div>
+
+                    <div class="col-md-2">
+                        <img src="assets/Game-Boy-Advance.png" alt="Game Boy Advance">
+                    </div>
+
+                    <div class="col-md-2">
+                        <img src="assets/GameCube.png" alt="GameCube">
+                    </div>
+
+                    <div class="row justify-content-center">
+                        <div class="col-md-2">
+                            <img src="assets/Nintendo DS.png" alt="Nintendo DS">
+                        </div>
+
+                        <div class="col-md-2">
+                            <img src="assets/Nintendo 3DS.png" alt="Nintendo 3DS">
+                        </div>
+
+                        <div class="col-md-2">
+                            <img src="assets/Nintendo Switch.png" alt="Nintendo Switch">
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+        </div>
+    </main>
+
+
+    <section id="about">
+        <div class="row justify-content-center">
+            <h2>
+                about
+            </h2>
+        </div>
+
+        <div class="row justify-content-center align-items-center">
+            <div class="col-md-1 image-trait">
+            </div>
+
+            <div class="col-md-1 image-etoile d-flex justify-content-center">
+                <img src="assets/etoile.png" alt="étoile">
+            </div>
+
+            <div class="col-md-1 image-trait">
+            </div>
+        </div>
+
+        <div class="row justify-content-center">
+            <div class="col-md-3">
+                <p>
+                    Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete
+                    source files including HTML, CSS, and JavaScript as well as optional SASS stylesheets for easy
+                    customization.
+                </p>
+            </div>
+
+            <div class="col-md-3">
+                <p>
+                    You can create your own custom avatar for the masthead, change the icon in the dividers, and add
+                    your email address to the contact form to make it fully functional!
+                </p>
+            </div>
+        </div>
+
+        <div class="row justify-content-center" id="about-bouton">
+            <button type="button" class="btn">
+                <img src="assets/bouton download.png" alt="bouton Download">
+                <a href="http://startbootstrap.com/theme/freelancer">Free Download!</a>
+            </button>
+        </div>
+
+    </section>
+
+
+    <section>
+        <div class="row">
+            <div class="col-md-12 d-flex justify-content-center">
+                <section>
+                    <h2>
+                        Contact Me
+                    </h2>
+                    <div class="row justify-content-center align-items-center">
+                        <div class="col-md-1 image-trait-bleu">
+                        </div>
+
+                        <div class="col-md-1 image-etoile-bleu d-flex justify-content-center">
+                            <img src="assets/etoile bleu.png" alt="étoile bleu">
+                        </div>
+
+                        <div class="col-md-1 image-trait-bleu">
+                        </div>
+                    </div>
+                </section>
+            </div>
+
+            <div class="row form">
+                <div class="form-full-name">
+                    <div class="col-md-12 d-flex justify-content-center">
+                        <p>
+                            Full name
+                        </p>
+                    </div>
+
+                    <div class="col-md-12">
+                        <input type="text" name="name" id="name">
+
+                        <div class="col-md-12 form-full-name-input-border">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-email">
+                    <div class="col-md-12 d-flex justify-content-center">
+                        <p>
+                            Email address
+                        </p>
+                    </div>
+
+                    <div class="col-md-12">
+                        <input type="email" name="email" id="email">
+
+                        <div class="col-md-12 form-email-input-border">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-tel">
+                    <div class="col-md-12 d-flex justify-content-center">
+                        <p>
+                            Phone number
+                        </p>
+                    </div>
+
+                    <div class="col-md-12">
+                        <input type="tel" name="tel" id="tel">
+
+                        <div class="col-md-12 form-tel-input-border">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-message">
+                    <div class="col-md-12 d-flex justify-content-center">
+                        <p>
+                            Message
+                        </p>
+                    </div>
+
+                    <div class="col-md-12">
+                        <textarea name="text" id="text" cols="30" rows="10">
+                        </textarea>
+
+                        <div class="col-md-12 form-message-input-border">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row justify-content-center" id="form-bouton">
+                    <button type="button" class="btn">
+                        <a href="#">Send</a>
+                    </button>
+                </div>
+            </div>
+
+    </section>
+
+
+    <footer>
+        <div class="row align-items-center">
+            <div class="col-md-4 d-flex justify-content-center flex-column">
+                <h3>
+                    Location
+                </h3>
+                <p>
+                    2215 John Daniel Drive
+                </p>
+                <p>
+                    Clark, MO 65243
+                </p>
+            </div>
+
+            <div class="col-md-4 d-flex justify-content-center flex-column">
+                <h3>
+                    Around the Web
+                </h3>
+                <div class="row justify-content-center">
+                    <img src="assets/logo facebook.png" alt="facebook">
+                    <img src="assets/logo twitter.png" alt="twitter">
+                    <img src="assets/logo linkdin.png" alt="linkdin">
+                    <img src="assets/logo je sais pas quoi.png" alt="jesaispasquoi">
+                </div>
+            </div>
+
+            <div class="col-md-4 d-flex justify-content-center flex-column">
+                <h3>
+                    About Freelancer
+                </h3>
+                <p>
+                    Freelance is a free to use, MIT licensed
+                </p>
+                <p>
+                    Bootstrap theme created by <strong>Start Bootstrap</strong>.
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <div class="row fin">
+        <p>
+            Copyright © Your Website 2022
+        </p>
+    </div>
+
+</body>
+
+</html>
